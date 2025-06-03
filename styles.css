@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/imagen-fundo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+#particles-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.container-lista {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.titulo-pagina {
+  color: #efefef;
+}
+
+input {
+  padding: 10px;
+  margin: 10px, 0;
+  width: 70%;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#adicionarButton {
+  background-color: #383a8480;
+  color: white;
+}
+#limparButton {
+  background-color:#f2f2f207;
+  
+  border-radius: 5px;
+  color: #efefef;
+}
+ul {
+  list-style-type:square;
+  color: #efefef;
+  margin: -40px;
+  margin-left: 35px;
+  padding: 0;
+  text-align: left;
+  font-style:italic;
+  font-size:larger;
+
+}
